@@ -1,0 +1,46 @@
+import React from "react";
+import "./class.scss";
+import { Card, Col, Row, Button, Accordion } from "react-bootstrap";
+import AccordionElement from "../accordion/AccordionElement";
+
+function ClassElement() {
+  return (
+    <div className="container-fluid">
+      <h1>Class Materials</h1>
+      <Card className="class-card">
+        <AccordionElement
+          url="https://www.youtube.com/watch?v=q7LPqJor_D0&t=672s"
+          aname="2021 September Maths"
+          eventKey="0"
+        />
+        <AccordionElement
+          url="https://www.youtube.com/watch?v=JTyi0HjuuGc"
+          aname="2021 November Maths"
+          eventKey="1"
+        />
+        <AccordionElement
+          url="https://www.youtube.com/watch?v=JTyi0HjuuGc"
+          aname="2021 December Maths"
+          eventKey="2"
+        />
+        <AccordionElement
+          url="https://www.youtube.com/watch?v=JTyi0HjuuGc"
+          aname="2022 January Maths"
+          eventKey="3"
+        />
+        <AccordionElement
+          url="https://www.youtube.com/watch?v=JTyi0HjuuGc"
+          aname="2022 February Maths"
+          eventKey="4"
+        />
+        <AccordionElement
+          url="https://www.youtube.com/watch?v=JTyi0HjuuGc"
+          aname="2022 March Maths"
+          eventKey="5"
+        />
+      </Card>
+    </div>
+  );
+}
+
+export default ClassElement;

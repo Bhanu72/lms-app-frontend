@@ -1,0 +1,29 @@
+.info-wrap{
+    background-color: rgba(29, 28, 28, 0.548) !important;
+    height: 480px ;
+    color: seashell;
+}
+
+.contact{
+    color: rgb(39, 39, 35);
+    text-decoration: none ;
+    font-size: 20px;
+}
+.contact:hover{
+    color: rgb(245, 228, 73);
+}
+
+.dbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt{
+    font-size: 25px;
+}
+
+.fico{
+    margin-right: 12px;
+    font-size: 30px;
+}

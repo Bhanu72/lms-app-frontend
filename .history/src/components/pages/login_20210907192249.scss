@@ -1,0 +1,29 @@
+.login-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(39, 39, 35, 0.562);
+}
+
+.loginbox{
+    border-radius: 10px;
+}
+
+.loginstd{
+    color: rgb(255, 255, 255);
+    margin-bottom: 35px;
+}
+.loginimg{
+   
+  
+    width: 500px;
+}
+.login-btn{
+    width: 180px;
+    height: 35px;
+    border-radius: 15px;
+    color: #fff;
+}

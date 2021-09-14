@@ -1,0 +1,25 @@
+.freebtn{
+   position: relative;
+   top: 140px;
+   border: none;
+   margin: 20px;
+   margin-bottom: 200px;
+   width: 350px;
+   height: 70px;
+   background-color: #92e3a9;
+   font-weight: 500;
+   border-radius: 30px;
+   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+   transition: all 0.3s ease 0s;
+ cursor: pointer;
+}
+.freebtn:hover {
+    
+    box-shadow: 0px 15px 20px rgba(39, 41, 40, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+.freeimg{
+    width: 800px;
+    margin-bottom: 20px;
+}

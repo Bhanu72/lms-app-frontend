@@ -1,0 +1,28 @@
+.onlineim{
+
+width: 300px;
+}
+
+.onlinecd{
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+    margin: 50px;
+}
+
+.cdcomp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: tomato;
+    padding: 40px calc((100% - (255px * 3)) / 2);
+  
+    background-color: turquoise;
+}
+
+.clzcard{
+    height: 100px;
+    flex: 0 0 215px;
+    margin: 1em 20px;
+    border: 2px blue solid;
+}

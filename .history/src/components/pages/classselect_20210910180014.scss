@@ -1,0 +1,37 @@
+.onlineim{
+
+width: 300px;
+}
+
+.onlinecd{
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+    margin: 50px;
+}
+
+.flex-wrap{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 320px){
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        flex-basis: 100%;
+    }
+}
+
+.clzcard{
+    height: 100px;
+    flex: 0 0 215px !important;
+  
+}

@@ -1,0 +1,26 @@
+.jcbtn{
+    position: relative;
+    top: 150px;
+    border: none;
+    margin: 20px;
+    margin-bottom: 200px;
+    width: 450px;
+    height: 75px;
+    font-size: 34px;
+    padding: 10px;
+   background-color: #830000;
+    font-weight: 500;
+    border-radius: 30px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+  cursor: pointer;
+
+}
+
+
+.jcbtn:hover {
+    background-color: #c0212e;
+    box-shadow: 0px 15px 20px rgba(39, 41, 40, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }

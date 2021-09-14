@@ -1,0 +1,18 @@
+.onlineim{
+
+width: 300px;
+}
+
+.onlinecd{
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+    margin: 50px;
+}
+
+.cdcomp{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 33.333333% !important;
+    background-color: turquoise;
+}

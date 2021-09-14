@@ -1,0 +1,24 @@
+import React from "react";
+import "./classcard.scss";
+import { Button } from "react-bootstrap";
+
+function ClassCard(props) {
+  const { subject, grade , route } = props;
+  return (
+    <div className="clzcd container">
+      <div className="clzcard">
+        <h3 className="title">Grade {grade}</h3>
+
+        <div className="cbtn">
+          <Button variant="outline-danger" className="dangerbtn"  onClick={() => {
+                history.push{route};
+              }}>
+            {subject}
+          </Button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default ClassCard;

@@ -1,0 +1,27 @@
+.header{
+display: flex;
+justify-content: center;
+align-items: center;
+    width: 1000px;
+    height: 150px;
+    background-color: #1c85e875;
+    margin-bottom: 20px;
+}
+
+.us{
+    color: rgb(253, 252, 252);
+    font-size: 55px;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.about{
+    width: 700px;
+}
+
+.about-card{
+    padding: 20px;
+    background-color: #382c256b;
+    border: none;
+    border-radius: 25px;
+    box-shadow: -8px 8px #888888;
+}

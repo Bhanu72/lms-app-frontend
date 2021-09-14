@@ -1,0 +1,67 @@
+import React from "react";
+import "./acc.scss";
+import { Card, Col, Row, Button, Accordion, Form } from "react-bootstrap";
+import ReactPlayer from "react-player";
+import GGImg from "../../assets/images/logo.jpg";
+
+function AccordionElement(props) {
+  const { cheader, url, eventKey } = props;
+  return (
+    <div className="container-fluid">
+      <Card className="collapse-card container">
+        <Accordion>
+          <Accordion.Item eventKey={eventKey}>
+            <Accordion.Header>
+              {cheader}
+              <Form.Check aria-label="option 0" className="check" />
+            </Accordion.Header>
+            <Accordion.Body>
+              <div className="player">
+                <ReactPlayer controls url={url} />
+              </div>
+              <div className="resources">
+                <Row>
+                  <Col>
+                    {" "}
+                    <Card className="resource-card">
+                      <a href="#" download className="dwn">
+                        <Form.Check aria-label="option 1" className="check" />
+                        Week 1
+                      </a>
+                      <hr />
+                      <a href="#" download className="dwn">
+                        <Form.Check aria-label="option 2" className="check" />
+                        Week 2
+                      </a>
+                      <hr />
+                      <a href="#" download className="dwn">
+                        <Form.Check aria-label="option 3" className="check" />
+                        Week 3
+                      </a>
+                      <hr />
+                      <a href="#" download className="dwn">
+                        <Form.Check aria-label="option 4" className="check" />
+                        Week 4
+                      </a>
+                    </Card>
+                  </Col>
+                  <Col>
+                    <Card className="drag-card">
+                      <Form.Group controlId="formFile" className="mb-3">
+                        <Form.Label>Upload your assignment</Form.Label>
+                        <Form.Control type="file" />
+                        <Button>Upload</Button>
+                      </Form.Group>
+                    </Card>
+                  </Col>
+                </Row>
+              </div>
+            </Accordion.Body>
+          </Accordion.Item>
+        </Accordion>
+      </Card>
+    </div>
+  );
+}
+
+export default AccordionElement;

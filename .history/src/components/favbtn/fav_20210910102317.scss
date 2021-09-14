@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box input[type="checkbox"] {
+    width: 90px;
+    height: 100px;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+  }
+  input[type="checkbox"] ::after {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background: rgb(182, 170, 170);
+    transform: rotate(45deg);
+    left: -18px;
+    
+  }
+  input[type="checkbox"] ::before {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background: rgb(182, 170, 170);
+    transform: rotate(-45deg);
+    right: -18px;
+    
+  }
+  input[type="checkbox"]:checked::before,
+  input[type="checkbox"]:checked::after{
+    background: #ac0808;
+  }
+  input[type="checkbox"] ~ span {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    z-index: -999;
+  }
+  input[type="checkbox"] ~ span::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #aaa;
+    left: -18px;
+    top: 0;
+    transform: rotate(45deg);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+  
+  }
+  input[type="checkbox"]~span::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #aaa;
+    right: -18px;
+    top: 0;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transform: rotate(-45deg);
+  }
+  input[type="checkbox"]:checked ~ span::after,
+  input[type="checkbox"]:checked ~ span::before{
+    animation: pump 5s infinite;
+  }
+  
+  @keyframes pump {
+    0%{
+      box-shadow: 8px 8px 90px rgba(201,24,89,1);
+    }
+    50%{
+      box-shadow: 8px 8px 90px rgba(201,24,89,0.5);
+    }
+    100%{
+      box-shadow: 8px 8px 90px rgba(201,24,89,1);
+    }
+  }

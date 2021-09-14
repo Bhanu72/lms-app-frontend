@@ -1,0 +1,28 @@
+.onlineim{
+
+width: 300px;
+}
+
+.onlinecd{
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+    margin: 50px;
+}
+
+
+
+// .clzcard{
+//     height: 100px;
+//     flex: 0 0 215px !important;
+  
+// }
+
+.ex .onlinecd{
+    display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+.ex .onlinecd .clzcard{
+    flex: 0 0 33.333333%;
+}

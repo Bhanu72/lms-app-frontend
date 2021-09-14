@@ -1,0 +1,19 @@
+.header{
+display: flex;
+justify-content: center;
+align-items: center;
+    width: 1000px;
+    height: 150px;
+    background-color: rgba(255, 255, 0, 0.507);
+    margin-bottom: 20px;
+}
+
+.us{
+    color: rgb(0, 0, 0);
+    font-size: 55px;
+    text-shadow: 2px 2px white;
+}
+
+.about{
+    border-radius: 50%;
+}

@@ -1,0 +1,54 @@
+.container-fluid{
+    margin-top: 70px;
+}
+
+.carousel-inner  {
+  border-radius: 12px;
+}
+hr{
+   height: 5px;
+}
+
+.classbtn{
+    width: 300px;
+    border: none;
+    height: 60px;
+    margin: 20px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.classbtn:hover {
+    background-color: #062143;
+    color: rgb(255, 255, 255) ;
+    
+}
+.coursebtn{
+    width: 300px;
+    border: none;
+    height: 60px;
+    margin: 20px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.coursebtn:hover {
+    background-color: #062143;
+    color: rgb(255, 255, 255) ;
+    
+}
+.livebtn{
+    width: 300px;
+    border: none;
+    height: 60px;
+    margin: 20px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: brown;
+}
+.livebtn:hover {
+    background-color: #062143;
+    color: rgb(255, 255, 255) ;
+    
+}

@@ -1,0 +1,56 @@
+.check{
+   display: flex;
+
+ margin-left: 10px;
+ font-size: 20px;
+}
+
+.player{
+margin: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.resource-card{
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    background-color: rgba(37, 35, 35, 0.26);
+    border: none;
+    padding: 20px;
+    border-radius: 30px;
+    // width: 300px;
+    margin: 12px;
+}
+
+.drag-card{
+    margin: 12px;
+    background-color: rgba(37, 35, 35, 0.26);
+    border: none;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 130px;
+}
+
+.dwn{
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(2, 29, 18);
+    font-weight: 500;
+    
+}
+
+.accordion-button{
+
+    font-size: 22px ;
+    font-weight: 500;
+}
+// .collapse-card{
+//     background-color: rgba(0, 0, 0, 0.425);
+//     border: none;
+//     padding: 20px;
+// }
+
+
+

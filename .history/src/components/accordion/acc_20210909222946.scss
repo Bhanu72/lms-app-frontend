@@ -1,0 +1,31 @@
+.check{
+   
+ margin-left: 10px;
+ font-size: 20px;
+}
+
+.player{
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.resource-card{
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    background-color: rgba(37, 35, 35, 0.26);
+    border: none;
+    padding: 20px;
+    border-radius: 30px;
+    width: 500px;
+    margin: 12px;
+}
+
+.dwn{
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(2, 29, 18);
+    
+}

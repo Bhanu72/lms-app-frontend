@@ -1,0 +1,45 @@
+.info-wrap{
+    background-color: rgba(29, 28, 28, 0.548) !important;
+    height: 480px ;
+    color: seashell;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+
+.contact{
+    color: rgb(39, 39, 35);
+    text-decoration: none ;
+    font-size: 20px;
+}
+.contact:hover{
+    color: rgb(10, 42, 102);
+}
+
+.dbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt{
+    font-size: 20px;
+}
+
+.fico{
+    margin-right: 12px;
+    font-size: 30px;
+}
+.cus{
+    margin-bottom: 15px;
+}
+
+.gg{
+    border: 0.5px solid black;
+}
+
+.contact-btn{
+    border-radius: 8px;
+    height: 45px;
+    background-color: rgb(38, 17, 128);
+    border: none;
+}
